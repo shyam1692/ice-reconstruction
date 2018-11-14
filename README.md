@@ -14,3 +14,12 @@ Long time back, this was done by digging the bed surfaces. But this is inefficie
 
 In past few decades, Radar signals are being effectively used to study the underlying structure of the ice sheets.
 
+But the detection of the bed surfaces from Radar output requires human annotation. This is a very tedious job.
+Hence, we develop an algorithm to recognize the bed surfaces by supervised learning.
+
+
+Previously, Markov Random Fields and 3D CNN Networks have been applied for this task.
+Now, we explore the application of different forms of C2DN Networks, ranging from simplistic architecture to more complex architecture of using Mask RCNN (work in progress)
+
+# C2DN
+The C2D Network has worked as efficiently as C3D network. The average errors in the estimation of Ice bed surface is 23.13 pixels, and for air bed surfaces is 6.16 pixels.
